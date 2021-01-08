@@ -1,6 +1,6 @@
 import json
 
-# This uses a json string as an input 
+# This uses a json string as an input
 
 json_string = """
 {
@@ -15,6 +15,8 @@ json_string = """
 }
 """
 # Modify below this line
+
+
 def main():
     json_input = json.loads(json_string)
     text = json_input['Input'][0]['Text']
@@ -22,5 +24,6 @@ def main():
     target_language_code = json_input['Input'][0]['TargetLanguageCode']
     print(text, source_language_code, target_language_code)
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()

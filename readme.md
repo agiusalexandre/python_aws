@@ -10,8 +10,8 @@ $ source vevn/bin/activate
 $ pip install -r requirmements.txt
 
 ## Run the scripts
-
-$ python read_ext_json_file.py --file translate_input.json
+$ ~
+$ python scripts/read_ext_json_file.py --file scripts/files/translate_input.json
 
 - At the top, we define our imports. These are grouped with built-in packages at the top and then installed packages.
 - Next we use argparse to give us some command line interface inputs, we have defined a single argument --file.
